@@ -13,6 +13,32 @@ $border-color: #382318;
 // body bg color
 
 
+// image responsiveness for book covers
+$book-height-desktop: 410px;
+$book-height-tablet: 250px;
+$book-height-mobile: 200px;
+
+.book-container {
+    width: 100%;
+    height: $book-height-desktop;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    // fix these
+    @media (max-width: 768px) {
+        height: $book-height-tablet; /* Adjust height for tablets */
+    }
+    
+    @media (max-width: 576px) {
+        height: $book-height-mobile; /* Adjust height for mobile screens */
+    }
+}
+
 // Theme colors
 // https://getbootstrap.com/docs/5.3/customize/color/#theme-colors
 
