@@ -7,6 +7,15 @@
   color: #382318 !important; /* Text color */
 }
 
+.faq {
+  text-decoration: none;
+  color: #366865;
+}
+
+.faq:hover {
+  text-decoration: underline;
+}
+
 .book-container {
   width: 100%;
   height: 410px;
