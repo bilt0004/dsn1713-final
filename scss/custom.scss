@@ -10,8 +10,14 @@ $secondary: #DE6A55;
 $tertiary: #366865;
 
 $border-color: rgb(56, 35, 24);
-// body bg color
+// buttons hover
+.btn-outline-secondary:hover {
+    color: $light !important; /* Text color */
+}
 
+.btn-outline-secondary {
+    color: $primary !important; /* Text color */
+}
 
 // image responsiveness for book covers
 $book-height-desktop: 410px;
@@ -47,7 +53,15 @@ $book-height-mobile: 200px;
 
 
 // Typography
+$h1-font-size: 1rem * 3.815;
+$h2-font-size: 1rem * 3.052;
+$h3-font-size: 1rem * 2.441;
+$h4-font-size: 1rem * 1.953;
+$h5-font-size: 1rem * 1.563;
+$h6-font-size: 1rem * 1.25;
+$p-font-size: 1rem * 1;
 
+$line-height-base: 1.6;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
