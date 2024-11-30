@@ -16,6 +16,14 @@
   text-decoration: underline;
 }
 
+.book-link {
+  color: #366865;
+  text-decoration: none;
+}
+.book-link:hover {
+  text-decoration: underline;
+}
+
 .footer-list ul {
   list-style-type: none;
   padding: 0;
