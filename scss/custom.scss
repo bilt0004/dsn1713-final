@@ -28,6 +28,28 @@ $border-color: rgb(56, 35, 24);
     text-decoration: underline;
 }
 
+.footer-list {
+    ul {
+      list-style-type: none; // Remove bullets
+      padding: 0; // Remove padding for cleaner layout
+      margin: 0; // Optional: Remove margin for consistent spacing
+  
+      li {
+        h6, p {
+          margin: 0; // Remove any default margins for uniformity
+        }
+  
+        a {
+          text-decoration: none; // Remove underline
+          
+          &:hover {
+            text-decoration: underline; // Optional: Add underline on hover
+          }
+        }
+      }
+    }
+  }
+
 // image responsiveness for book covers
 $book-height-desktop: 410px;
 $book-height-tablet: 250px;
@@ -52,6 +74,14 @@ $book-height-mobile: 200px;
     @media (max-width: 576px) {
         height: $book-height-mobile; /* Adjust height for mobile screens */
     }
+}
+
+.disapear-mobile {
+    display: block; // Default for container lg
+
+  @media (max-width: 992px) {
+    display: none;
+  }
 }
 
 // Theme colors
