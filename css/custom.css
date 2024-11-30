@@ -16,18 +16,15 @@
   text-decoration: underline;
 }
 
-.row {
-  height: 100%;
+.hero-h6 {
+  color: #366865 !important;
 }
 
-.book-item {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+.book-cover {
+  border-radius: 1.25rem;
 }
 
 .book-link {
-  margin-top: auto;
   color: #366865;
   text-decoration: none;
 }
@@ -64,6 +61,7 @@
   width: 100%;
   object-fit: cover;
   display: block;
+  border-radius: 1.25rem;
 }
 
 /*!
