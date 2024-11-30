@@ -16,7 +16,18 @@
   text-decoration: underline;
 }
 
+.row {
+  height: 100%;
+}
+
+.book-item {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
 .book-link {
+  margin-top: auto;
   color: #366865;
   text-decoration: none;
 }

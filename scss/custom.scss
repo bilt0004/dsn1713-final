@@ -28,15 +28,26 @@ $border-color: rgb(56, 35, 24);
     text-decoration: underline;
 }
 
-.book-link {
-    color: $tertiary;
-    text-decoration: none;
+.row {
+    height: 100%;  // Ensure the row takes up the full height available
+  }
+  
+  .book-item {
+    display: flex;               // Use flexbox layout for the container
+    flex-direction: column;      // Stack elements vertically
+    height: 100%;                // Ensure the item takes up full height of the column
+  }
+  
+  .book-link {
+    margin-top: auto;            // Push the link (and h6) to the bottom of the container
+    color: $tertiary;            // Apply your tertiary color
+    text-decoration: none;       // Remove underline by default
   
     &:hover {
-      text-decoration: underline;
+      text-decoration: underline; // Underline on hover
     }
   }
-
+  
 .footer-list {
     ul {
       list-style-type: none; // Remove bullets
