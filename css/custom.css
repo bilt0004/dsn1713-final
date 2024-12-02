@@ -1,10 +1,10 @@
 @charset "UTF-8";
 .btn-outline-secondary:hover {
-  color: rgb(250, 246, 240) !important; /* Text color */
+  color: rgb(250, 246, 240) !important;
 }
 
 .btn-outline-secondary {
-  color: #382318 !important; /* Text color */
+  color: #382318 !important;
 }
 
 .faq {
