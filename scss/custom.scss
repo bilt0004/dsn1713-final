@@ -2,8 +2,6 @@
 // Option A: Include all of Bootstrap 
 // import fonts
 
-@import url(https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css);
-
 // Include any default variable overrides here (though functions won't be available)
 $primary: #382318;
 $light: rgb(250, 246, 240);
@@ -98,8 +96,6 @@ $h3-font-size: 1rem * 2.441;
 $h4-font-size: 1rem * 1.953;
 $h5-font-size: 1rem * 1.563;
 $h6-font-size: 1rem * 1.25;
-// doesnt work 
-$p-font-size: 1rem * 1;
 
 $line-height-base: 1.6;
 
@@ -114,6 +110,5 @@ $line-height-base: 1.6;
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap";
-// @import "../node_modules/animate.css/animate.css";
 
 // Then add additional custom code here
