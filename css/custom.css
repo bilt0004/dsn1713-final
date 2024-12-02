@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import "../node_modules/animate.css/animate.css";
 .btn-outline-secondary:hover {
   color: rgb(250, 246, 240) !important; /* Text color */
 }
