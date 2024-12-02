@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url(https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css);
 @import "../node_modules/animate.css/animate.css";
 .btn-outline-secondary:hover {
   color: rgb(250, 246, 240) !important; /* Text color */
