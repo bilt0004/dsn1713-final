@@ -1,8 +1,7 @@
 // Custom.scss
-// Option A: Include all of Bootstrap 
-// import fonts
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Sans+3:ital@0;1&display=swap');
-// Include any default variable overrides here (though functions won't be available)
+
 $primary: #382318;
 $light: rgb(250, 246, 240);
 $secondary: #DE6A55;
@@ -71,13 +70,6 @@ $border-color: rgb(56, 35, 24);
   }
 }
 
-// Theme colors
-// https://getbootstrap.com/docs/5.3/customize/color/#theme-colors
-
-
-// Changing navbar
-
-// Hero image sizing 
 .hero img {
     height: 350px;
     width: 100%;
@@ -86,7 +78,6 @@ $border-color: rgb(56, 35, 24);
     border-radius: 1.25rem;
 }
 
-// Typography
 $h1-font-size: 1rem * 3.815;
 $h2-font-size: 1rem * 3.052;
 $h3-font-size: 1rem * 2.441;
@@ -107,5 +98,3 @@ $line-height-base: 1.6;
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap";
-
-// Then add additional custom code here
