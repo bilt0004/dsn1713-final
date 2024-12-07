@@ -1,12 +1,14 @@
 // Custom.scss
 // Option A: Include all of Bootstrap 
 // import fonts
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Sans+3:ital@0;1&display=swap');
 // Include any default variable overrides here (though functions won't be available)
 $primary: #382318;
 $light: rgb(250, 246, 240);
 $secondary: #DE6A55;
 $tertiary: #366865;
+
+$font-family-sans-serif: "Open Sans", sans-serif;
 
 $border-color: rgb(56, 35, 24);
 .btn-outline-secondary:hover {
@@ -28,10 +30,6 @@ $border-color: rgb(56, 35, 24);
 
 .hero-h6 {
     color: $tertiary !important;
-}
-
-.book-cover {
-    border-radius: 1.25rem;
 }
 
 .book-link {
